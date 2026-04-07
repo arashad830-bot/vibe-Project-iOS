@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "name": "Design System AI - Tokens",
+    "version": "1.0.0",
+    "description": "Complete design token system for React, Kotlin, and Swift platforms",
+    "generatedAt": "2026-04-07"
+  },
+  "colors": {
+    "primitives": {
+      "primary": {
+        "50": "#eef2ff",
+        "100": "#e0e7ff",
+        "200": "#c7d2fe",
+        "300": "#a5b4fc",
+        "400": "#818cf8",
+        "500": "#6366f1",
+        "600": "#4f46e5",
+        "700": "#4338ca",
+        "800": "#3730a3",
+        "900": "#312e81"
+      },
+      "neutral": {
+        "0": "#ffffff",
+        "50": "#f9fafb",
+        "100": "#f3f4f6",
+        "200": "#e5e7eb",
+        "300": "#d1d5db",
+        "400": "#9ca3af",
+        "500": "#6b7280",
+        "600": "#4b5563",
+        "700": "#374151",
+        "800": "#1f2937",
+        "900": "#111827"
+      },
+      "success": {
+        "50": "#f0fdf4",
+        "100": "#dcfce7",
+        "200": "#bbf7d0",
+        "300": "#86efac",
+        "400": "#4ade80",
+        "500": "#22c55e",
+        "600": "#16a34a",
+        "700": "#15803d",
+        "800": "#166534",
+        "900": "#145231"
+      },
+      "warning": {
+        "50": "#fffbf0",
+        "100": "#fef3c7",
+        "200": "#fde68a",
+        "300": "#fcd34d",
+        "400": "#fbbf24",
+        "500": "#f59e0b",
+        "600": "#d97706",
+        "700": "#b45309",
+        "800": "#92400e",
+        "900": "#78350f"
+      },
+      "error": {
+        "50": "#fef2f2",
+        "100": "#fee2e2",
+        "200": "#fecaca",
+        "300": "#fca5a5",
+        "400": "#f87171",
+        "500": "#ef4444",
+        "600": "#dc2626",
+        "700": "#b91c1c",
+        "800": "#7f1d1d",
+        "900": "#450a0a"
+      },
+      "info": {
+        "50": "#f0f4ff",
+        "100": "#dbe9ff",
+        "200": "#bfdbfe",
+        "300": "#93c5fd",
+        "400": "#60a5fa",
+        "500": "#3b82f6",
+        "600": "#2563eb",
+        "700": "#1d4ed8",
+        "800": "#1e40af",
+        "900": "#1e3a8a"
+      }
+    },
+    "semantic": {
+      "background": {
+        "primary": "#6366f1",
+        "secondary": "#f9fafb",
+        "surface": "#f3f4f6",
+        "disabled": "#e5e7eb"
+      },
+      "text": {
+        "primary": "#111827",
+        "secondary": "#4b5563",
+        "muted": "#9ca3af",
+        "inverse": "#ffffff"
+      },
+      "border": {
+        "default": "#e5e7eb",
+        "subtle": "#f3f4f6",
+        "focus": "#6366f1"
+      },
+      "icon": {
+        "primary": "#6366f1",
+        "secondary": "#6b7280"
+      },
+      "status": {
+        "success": "#22c55e",
+        "warning": "#f59e0b",
+        "error": "#ef4444",
+        "info": "#3b82f6"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+      "secondary": "Georgia, \"Times New Roman\", serif",
+      "monospace": "\"JetBrains Mono\", \"Fira Code\", \"Courier New\", monospace"
+    },
+    "fontWeights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "fontSizes": {
+      "xs": 12,
+      "sm": 14,
+      "md": 16,
+      "lg": 18,
+      "xl": 20,
+      "2xl": 24,
+      "3xl": 32,
+      "4xl": 40
+    },
+    "lineHeights": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.625,
+      "loose": 2
+    },
+    "letterSpacing": {
+      "tight": "-0.025em",
+      "normal": "0em",
+      "wide": "0.05em"
+    },
+    "textStyles": {
+      "caption": {
+        "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0em"
+      },
+      "display": {
+        "large": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 40,
+          "fontWeight": 600,
+          "lineHeight": 1.2,
+          "letterSpacing": "0em"
+        },
+        "medium": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 32,
+          "fontWeight": 600,
+          "lineHeight": 1.2,
+          "letterSpacing": "0em"
+        }
+      },
+      "heading": {
+        "h1": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 32,
+          "fontWeight": 600,
+          "lineHeight": 1.2,
+          "letterSpacing": "0em"
+        },
+        "h2": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 24,
+          "fontWeight": 600,
+          "lineHeight": 1.2,
+          "letterSpacing": "0em"
+        },
+        "h3": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 20,
+          "fontWeight": 600,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        },
+        "h4": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 18,
+          "fontWeight": 600,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        }
+      },
+      "body": {
+        "large": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "lineHeight": 1.625,
+          "letterSpacing": "0em"
+        },
+        "medium": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 16,
+          "fontWeight": 400,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        },
+        "small": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        }
+      },
+      "label": {
+        "large": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 16,
+          "fontWeight": 500,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        },
+        "medium": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        },
+        "small": {
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontSize": 12,
+          "fontWeight": 500,
+          "lineHeight": 1.5,
+          "letterSpacing": "0em"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "primitives": {
+      "0": 0,
+      "px": 1,
+      "0.5": 2,
+      "1": 4,
+      "1.5": 6,
+      "2": 8,
+      "2.5": 10,
+      "3": 12,
+      "4": 16,
+      "5": 20,
+      "6": 24,
+      "7": 28,
+      "8": 32,
+      "9": 36,
+      "10": 40,
+      "12": 48,
+      "14": 56,
+      "16": 64,
+      "20": 80,
+      "24": 96
+    },
+    "semantic": {
+      "component": {
+        "xs": 4,
+        "sm": 12,
+        "md": 12,
+        "lg": 16,
+        "xl": 24
+      },
+      "gap": {
+        "xs": 4,
+        "sm": 12,
+        "md": 16,
+        "lg": 24,
+        "xl": 40
+      },
+      "inset": {
+        "xs": 12,
+        "sm": 12,
+        "md": 16,
+        "lg": 24,
+        "xl": 40,
+        "2xl": 48
+      },
+      "layout": {
+        "xs": 40,
+        "sm": 48,
+        "md": 48,
+        "lg": 64,
+        "xl": 80,
+        "2xl": 96
+      },
+      "radius": {
+        "none": 0,
+        "xs": 2,
+        "sm": 4,
+        "md": 8,
+        "lg": 12,
+        "xl": 16,
+        "full": 96
+      },
+      "border": {
+        "none": 0,
+        "default": 1,
+        "thick": 2,
+        "heavy": 4
+      }
+    }
+  },
+  "platforms": {
+    "react": {
+      "colors": {
+        "export": "export const colors = { ... } // Use the primitives and semantic color hex values above",
+        "usage": "import { colors } from '@/tokens/colors';\n\n// Usage\n<div style={{ backgroundColor: colors.primary[500] }} />"
+      },
+      "typography": {
+        "export": "export const typography = { ... } // Use the textStyles structure above",
+        "usage": "import { typography } from '@/tokens/typography';\n\n// Usage\n<Typography variant=\"h1\" styles={typography.heading.h1} />"
+      },
+      "spacing": {
+        "export": "export const spacing = { ... } // Use the semantic spacing values above",
+        "usage": "import { spacing } from '@/tokens/spacing';\n\n// Usage\n<div style={{ padding: spacing.inset.md }} />"
+      }
+    },
+    "kotlin": {
+      "colors": {
+        "export": "object ColorTokens { val primary = Color(0xFF6366F1) // etc... }",
+        "usage": "import com.example.tokens.ColorTokens\n\n// Usage\nBox(modifier = Modifier.background(ColorTokens.primary))"
+      },
+      "typography": {
+        "export": "object TypographyTokens { val headingH1 = TextStyle(...) }",
+        "usage": "import com.example.tokens.TypographyTokens\n\n// Usage\nText(\"Title\", style = TypographyTokens.headingH1)"
+      },
+      "spacing": {
+        "export": "object SpacingTokens { val insetMd = 16.dp }",
+        "usage": "import com.example.tokens.SpacingTokens\n\n// Usage\nBox(modifier = Modifier.padding(SpacingTokens.insetMd))"
+      }
+    },
+    "swift": {
+      "colors": {
+        "export": "enum ColorTokens { static let primary = Color(red: 0.388, green: 0.400, blue: 0.945) }",
+        "usage": "import Foundation\n\n// Usage\nView().background(ColorTokens.primary)"
+      },
+      "typography": {
+        "export": "struct TypographyTokens { static let headingH1 = Font.system(size: 32, weight: .semibold) }",
+        "usage": "import SwiftUI\n\n// Usage\nText(\"Title\")\n  .font(TypographyTokens.headingH1)"
+      },
+      "spacing": {
+        "export": "enum SpacingTokens { static let insetMd: CGFloat = 16 }",
+        "usage": "import SwiftUI\n\n// Usage\nVStack(spacing: SpacingTokens.insetMd)"
+      }
+    }
+  },
+  "references": {
+    "figmaFile": "https://www.figma.com/design/FZxoe9yHmcR5PgIYRV50vk/Design-system-AI",
+    "variableCollections": {
+      "colors_primitives": "_Primitives",
+      "colors_semantic": "🧩 Semantic",
+      "typography_primitives": "_Typography Primitives",
+      "typography_semantic": "📝 Typography Semantic",
+      "spacing_primitives": "_ Spacing Primitives",
+      "spacing_semantic": "📏 Spacing Semantic"
+    }
+  }
+}
